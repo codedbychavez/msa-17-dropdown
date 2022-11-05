@@ -16,5 +16,9 @@ export default {
 <style lang="scss">
   .accordion-button {
     background-color: #F1F1F1;
+    border: 0;
+    &:not(.collapsed) {
+      box-shadow: none;
+    }
   }
 </style>
