@@ -1,0 +1,20 @@
+{
+  "name": "msa",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@coreui/coreui": "4.2.2",
+    "@coreui/vue": "4.4.0",
+    "nuxt": "3.0.0-rc.9"
+  },
+  "keywords": []
+}
