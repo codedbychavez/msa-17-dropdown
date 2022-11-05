@@ -1,5 +1,5 @@
 <template>
-  <CAccordionItem>
+  <CAccordionItem class="accordion-item">
     <slot />
   </CAccordionItem>
 </template>
@@ -13,3 +13,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+  .accordion-item {
+    background-color: #F1F1F1;
+  }
+</style>

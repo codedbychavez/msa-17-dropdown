@@ -1,6 +1,6 @@
 <template>
   <div>
-    <CAccordion :always-open="isAlwaysOpen">
+    <CAccordion class="accordion" :always-open="isAlwaysOpen" flush>
       <slot />
     </CAccordion>
   </div>
@@ -18,7 +18,3 @@ export default {
   },
 };
 </script>
-
-<style>
-/* TODO: Hide and show this component */
-</style>

@@ -12,3 +12,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+  .accordion-button {
+    background-color: #F1F1F1;
+  }
+</style>

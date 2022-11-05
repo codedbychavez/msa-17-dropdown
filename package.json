@@ -17,5 +17,8 @@
     "nuxt": "3.0.0-rc.9",
     "package.json": "^2.0.1"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "sass": "^1.56.0"
+  }
 }
