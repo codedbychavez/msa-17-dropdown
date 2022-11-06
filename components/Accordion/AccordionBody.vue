@@ -10,6 +10,6 @@ import { CAccordionBody } from "@coreui/vue";
 export default {
   components: {
     CAccordionBody,
-  }
-}
+  },
+};
 </script>

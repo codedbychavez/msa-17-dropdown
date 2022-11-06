@@ -5,19 +5,20 @@
 </template>
 
 <script>
-import { CAccordionItem } from '@coreui/vue'
+import { CAccordionItem } from "@coreui/vue";
 
 export default {
   components: {
     CAccordionItem,
-  }
-}
+  },
+};
 </script>
 
 <style lang="scss">
-  .accordion-item {
-    background-color: #F1F1F1;
-    margin-bottom: 32px;
-    border: 0;
-  }
+.accordion-item {
+  background-color: #f1f1f1;
+  margin-bottom: 32px;
+  border: 0;
+  max-width: 866px;
+}
 </style>
