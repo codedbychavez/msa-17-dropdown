@@ -14,6 +14,7 @@ export default {
 </script>
 
 <style lang="scss">
+// The accordion-button is in the header
 .accordion-button {
   background-color: #f1f1f1;
   color: #1b1464;
